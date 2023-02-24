@@ -2,11 +2,11 @@
 <nav class={$$props.class}>
   <ul>
 		<div class="left_nav">
-			<a href="/"> <img src="../../assets/behance.svg" alt="logo" srcset="" /> </a>
+			<a href="/"> <img src="../../assets/logo_blanco.png" alt="logo" srcset="" /> </a>
 		</div>
 		<div class="center_nav">
-			<a href="http://"><li>menu</li></a>
-			<a href="http://"><li>work</li></a>
+			<a href="http://"><li>home</li></a>
+			<a href="http://"><li>about</li></a>
 			<a href="http://"><li>contact</li></a>
 		</div>
 		<div class="right_nav">
@@ -22,7 +22,7 @@
 <style lang="scss">
 	nav {
     z-index: 100;
-		padding: 2rem;
+		padding: 1rem 2rem;
 		position: fixed;
 		top: 0rem;
 		width: 100%;
@@ -35,7 +35,7 @@
 			.left_nav {
 				flex: 1;
 				img {
-					width: 2rem;
+					width: auto;
 					height: 2rem;
 				}
 			}

@@ -1,5 +1,5 @@
 <script>
-  import "./dist/style.css";
+  import "./scss/style.css";
   import Nav from "./lib/Nav.svelte";
   import Hero from "./lib/Hero.svelte";
   import Second from "./lib/Second.svelte";
