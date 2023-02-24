@@ -1,52 +1,35 @@
 <section class={$$props.class}>
-  <h3 class="one">cho0se your ideation</h3>
-  <div class="two">
-    <a href="http://"><div /></a>
+  <div class="one"></div>
+  <div class="two row">
+    <h5>some other strategy</h5>
+    <a href="http://"><div></div></a>
+    <a href="http://"><div></div></a>
+
   </div>
-  <h5 class="three">design resources for the people</h5>
-  <h5 class="four">design resources for the people</h5>
 </section>
 
 <style lang="scss">
   .section {
-    color-scheme: light dark;
-
-    position: relative;
     &__5 {
-      overflow: hidden;
-
-      gap: 3rem;
-      flex-flow: column;
+      height: 100vh;
+      padding: 0;
       .one {
-        max-width: 10ch;
-        // text-align: center;
-
-        z-index: 99;
+        flex-basis: 10%;
+        height: 100%;
+        width: 100%;
+        background: center/ cover no-repeat #eee url("../../assets/image.jpg");
       }
       .two {
-        display: flex;
-        gap: 1rem;
-        & > * {
-          height: var(--medium);
-          width: var(--big);
-          &:nth-child(1) {
-            background: center/ contain no-repeat #eee url("../../assets/6.png");
-          }
+        justify-content: space-evenly;
+        align-items: center;
+        flex-basis: 90%;
+        &>*:nth-child(n+2){
+        background: center/ cover no-repeat #eee url("../../assets/2.png");
+        width: 15%;
+        height: 15%;
+        border-radius: 5rem;
         }
       }
-    }
-    h5 {
-      max-width: 15ch;
-    }
-    .three {
-      position: absolute;
-      bottom: 10%;
-      left: 10%;
-    }
-    .four {
-      position: absolute;
-      bottom: 10%;
-      right: 10%;
     }
   }
 </style>

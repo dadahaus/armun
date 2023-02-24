@@ -1,10 +1,10 @@
 <footer>
-  <div class="one"><h2>don't hesitate to contact us</h2></div>
+  <div class="one"><h5>don't hesitate to contact us</h5></div>
   <div class="two row">
     <a href="http://"><div /></a>
     <a href="http://"><div /></a>
-    <a href="http://"><div /></a>
 
+    
   </div>
 <a class="three" href="http://"><div>or just simply write <img class="mail" src="../../assets/mail-2.svg" alt="mail"></div></a>
 </footer>
@@ -13,9 +13,10 @@
   footer {
     position: relative;
     display: flex;
+    flex-flow: row-reverse;
     align-items: center;
     justify-content: space-between;
-    height: auto;
+    height: calc(90vh);
     width: 100vw;
     padding: 4rem;
     gap: 4rem;
@@ -40,9 +41,7 @@
         &:nth-child(2) {
           background: center/ cover no-repeat url("../../assets/dribbble.svg");
         }
-        &:nth-child(3) {
-          background: center/ cover no-repeat url("../../assets/behance-2.svg");
-        }
+
       }
     }
     .three{
