@@ -35,8 +35,8 @@
 			.left_nav {
 				flex: 1;
 				img {
-					width: 3rem;
-					height: 3rem;
+					width: 2rem;
+					height: 2rem;
 				}
 			}
 			.center_nav {
@@ -55,8 +55,8 @@
 				flex: 1;
 				// gap: 1rem;
 				img {
-					width: 3rem;
-					height: 3rem;
+					width: 2rem;
+					height: 2rem;
 				}
 			}
 		}

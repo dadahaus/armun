@@ -10,15 +10,13 @@
   import Footer from "./lib/Footer.svelte";
 </script>
 
+<Nav class="nav fixed" />
+<Hero class="section section__1 row" />
+<Second class="section section__2 column" />
+<Fourth class="section section__4 column" />
+<Fifth class="section section__5 row" />
 
-  <Nav class="nav fixed" />
-  <Hero class="section section__1 row" />
-  <Second class="section section__2 column" />
-  <Fourth class="section section__4 column" />
-  <Fifth class="section section__5 row" />
-
-  <Footer class="section section__3" />
-
+<Footer class="section section__3" />
 
 <style lang="scss">
 </style>
