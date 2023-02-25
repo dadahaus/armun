@@ -11,22 +11,38 @@
   <div class="two">
     <a href="#"
       ><div class="image-wrapper" id="heroImage">
-        <img class="image" src="../../assets/second_1.png" alt="some pic" />
+        <img
+          class="image hover"
+          src="../../assets/second_1.png"
+          alt="some pic"
+        />
       </div></a
     >
     <a href="#"
       ><div class="image-wrapper" id="heroImage">
-        <img class="image" src="../../assets/second_2.png" alt="some pic" />
+        <img
+          class="image hover"
+          src="../../assets/second_2.png"
+          alt="some pic"
+        />
       </div></a
     >
     <a href="#"
       ><div class="image-wrapper" id="heroImage">
-        <img class="image" src="../../assets/second_3.jpeg" alt="some pic" />
+        <img
+          class="image hover"
+          src="../../assets/second_3.jpeg"
+          alt="some pic"
+        />
       </div></a
     >
     <a href="#"
       ><div class="image-wrapper" id="heroImage">
-        <img class="image" src="../../assets/second_4.png" alt="some pic" />
+        <img
+          class="image hover"
+          src="../../assets/second_4.png"
+          alt="some pic"
+        />
       </div></a
     >
   </div>
@@ -45,10 +61,9 @@
       // gap: 6rem;
       // padding: 1rem;
       gap: 4rem;
-      &>* {
+      & > * {
         flex-basis: 50%;
         display: flex;
-      
       }
       .one {
         gap: 2rem;
@@ -72,6 +87,12 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          transition: 0.5s;
+            &:hover {
+              transform: translateY(-5%);
+              animation: translate 1s ease-in-out;
+            }
+
 
           .image {
             // border-radius: 50%;
@@ -81,8 +102,9 @@
             height: 15rem;
             object-fit: contain;
             z-index: -1;
+
           }
-   }
+        }
       }
 
       // align-items: flex-end;

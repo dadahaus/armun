@@ -8,15 +8,15 @@
                 Native:
             </h4>
         </div>
-        <div>
+        <div class="hover">
             <p><b> Voice €40 million to €4 billion</b></p>
             <p>earnings from your own e-commerce platform</p>
         </div>
-        <div>
+        <div class="hover">
             <p><b> 15 minutes is </b></p>
             <p>how soon a bug fix can be in production</p>
         </div>
-        <div>
+        <div class="hover">
             <p><b>Go from 4 to 20</b></p>
             <p>deployments a day (in six months)</p>
         </div>
@@ -28,7 +28,7 @@
         &__3 {
             height: auto;
             // transform: translateY(2.5rem);
-
+            margin-top: -7%;
             align-items: center;
             justify-content: center;
             gap: 3rem;
@@ -41,10 +41,19 @@
                 text-align: left;
                 // justify-content: flex-end;
                 gap: 2rem;
+                .hover{
+                    transition: 0.5s;
+                    &:hover{
+
+                        transform: translateX(2%);
+                        color: hsla(43, 73, 69, 1);
+                    }
+                }
                 & > * {
                 display: flex;
                 flex-flow: column;
                 gap: 0.5rem;
+
             }
 
             }
