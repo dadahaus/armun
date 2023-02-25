@@ -1,54 +1,112 @@
-<footer>
-  <div class="one"><h5>don't hesitate to contact us</h5></div>
-  <div class="two row">
-    <a href="http://"><div /></a>
-    <a href="http://"><div /></a>
-
-    
+<footer class="column">
+  <div class="one row">
+    <h5>technologies we <b>work</b></h5>
+    <div class="icons row">
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+    </div>
   </div>
-<a class="three" href="http://"><div>or just simply write <img class="mail" src="../../assets/mail-2.svg" alt="mail"></div></a>
+  <div class="two row">
+    <div class="arg column">
+      <p><b>Argentina</b> </p>
+      <p>Arroyito (CBA)</p>
+      <p>CP:X2434</p>
+      <p>CUIT: 30-71593728-6</p>
+    </div>
+    <div class="logo"></div>
+    <div class="ita column">
+      <p><b>Italia</b> </p>
+      <p>Savigliano (CN)</p>
+      <p>CAP: 12038</p>
+      <p>P.IVA 04021830049</p>
+    </div>
+
+  </div>
+  <div class="three row"><h5>San Martin 315 - Piso 1 - Oficina 2 - Arroyito - Cordoba - Argentina - Tel. +54 (03576) 454950 - Email info@armun.net - Politica de privacidad Politica de cookies </h5></div>
 </footer>
 
 <style lang="scss">
   footer {
     position: relative;
-    display: flex;
-    flex-flow: row-reverse;
     align-items: center;
-    justify-content: space-between;
+    // justify-content: space-between;
     height: calc(90vh);
     width: 100vw;
     padding: 4rem;
     gap: 4rem;
+    &>*{
+      justify-content: center;
+      align-items: center;
+    }
 
     .one {
-      text-transform: uppercase;
       flex-basis: 50%;
-      // overflow: hidden;
-    }
-    .two {
-      flex-basis: 50%;
+      width: 100%;
       justify-content: space-evenly;
       gap: 1rem;
-      flex-flow: wrap;
-
-      & > * {
-        height: 3rem;
-        width: 3rem;
-        &:nth-child(1) {
-          background: center/ cover no-repeat url("../../assets/instagram.svg");
+      flex-flow: nowrap;
+      h5 {
+        flex: auto;
+        font-weight: 200;
+        b {
+          font-weight: 900;
         }
-        &:nth-child(2) {
-          background: center/ cover no-repeat url("../../assets/dribbble.svg");
-        }
+      }
 
+      .icons {
+        flex-basis: 70%;
+        width: 100%;
+        justify-content: space-evenly;
+
+        & > * {
+          width: 3rem;
+          height: 3rem;
+
+          &:nth-child(1) {
+            background: center/ contain no-repeat
+              url("../../assets/footer_1.png");
+          }
+          &:nth-child(2) {
+            background: center/ contain no-repeat
+              url("../../assets/footer_2.png");
+          }
+          &:nth-child(3) {
+            background: center/ contain no-repeat
+              url("../../assets/footer_3.png");
+          }
+          &:nth-child(4) {
+            background: center/ contain no-repeat
+              url("../../assets/footer_4.png");
+          }
+          &:nth-child(5) {
+            background: center/ contain no-repeat
+              url("../../assets/footer_5.png");
+          }
+          &:nth-child(6) {
+            background: center/ contain no-repeat
+              url("../../assets/footer_6.png");
+          }
+        }
       }
     }
-    .three{
-      position: absolute;
-      bottom: 10%;
-      right: 10%;
-      .mail{
+    .two {
+      .logo{
+        width: 6rem;
+        height: 6rem;
+        background: center/ contain no-repeat
+              url("../../assets/logo_blanco.png");
+      }
+    }
+    .three {
+      text-align: center;
+
+      .mail {
+        background: center/ contain no-repeat
+              url("../../assets/mail.png");
         width: 2rem;
         height: 2rem;
         transform: translateY(30%);
