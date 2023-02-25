@@ -11,22 +11,22 @@
   <div class="two">
     <a href="#"
       ><div class="image-wrapper" id="heroImage">
-        <img class="image" src="../../assets/9.png" alt="some pic" />
+        <img class="image" src="../../assets/second_1.png" alt="some pic" />
       </div></a
     >
     <a href="#"
       ><div class="image-wrapper" id="heroImage">
-        <img class="image" src="../../assets/1.png" alt="some pic" />
+        <img class="image" src="../../assets/second_2.png" alt="some pic" />
       </div></a
     >
     <a href="#"
       ><div class="image-wrapper" id="heroImage">
-        <img class="image" src="../../assets/10.png" alt="some pic" />
+        <img class="image" src="../../assets/second_3.jpeg" alt="some pic" />
       </div></a
     >
     <a href="#"
       ><div class="image-wrapper" id="heroImage">
-        <img class="image" src="../../assets/3.png" alt="some pic" />
+        <img class="image" src="../../assets/second_4.png" alt="some pic" />
       </div></a
     >
   </div>
@@ -74,12 +74,12 @@
           justify-content: center;
 
           .image {
-            border-radius: 2rem;
+            // border-radius: 50%;
 
             // position: absolute;
             width: 15rem;
             height: 15rem;
-            object-fit: cover;
+            object-fit: contain;
             z-index: -1;
           }
    }
