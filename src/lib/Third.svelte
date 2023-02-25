@@ -1,36 +1,62 @@
 <section class={$$props.class}>
     <div class="two" />
-    <h3 class="one">we worry about maintenance so you don't have to</h3>
-  </section>
-  
-  <style lang="scss">
+    <div class="one column">
+        <div>
+            <p>Cultura y Tecnologias</p>
+            <h5>
+                Cómo es una transformación digital a través de tecnología Cloud
+                Native:
+            </h5>
+        </div>
+        <div>
+            <p><b> Voice €40 million to €4 billion</b></p>
+            <p>earnings from your own e-commerce platform</p>
+        </div>
+        <div>
+            <p><b> 15 minutes is </b></p>
+            <p>how soon a bug fix can be in production</p>
+        </div>
+        <div>
+            <p><b>Go from 4 to 20</b></p>
+            <p>deployments a day (in six months)</p>
+        </div>
+    </div>
+</section>
+
+<style lang="scss">
     .section {
-      &__3 {
-        height: auto;
-        // transform: translateY(2.5rem);
-        margin-top: 5%;
-        align-items: center;
-        justify-content: center;
-        gap: 3rem;
-        flex-wrap: wrap;
-        & > * {
-          flex-basis: 45%;
-          display: flex;
+        &__3 {
+            height: auto;
+            // transform: translateY(2.5rem);
+
+            align-items: center;
+            justify-content: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+            & > * {
+                flex-basis: 45%;
+                display: flex;
+            }
+            .one {
+                text-align: left;
+                // justify-content: flex-end;
+                gap: 2rem;
+                & > * {
+                display: flex;
+                flex-flow: column;
+                gap: 0.5rem;
+            }
+
+            }
+            .two {
+                overflow: hidden;
+                min-height: 70vh;
+                max-height: 1000%;
+                // width: 50vw;
+                background: center/ contain no-repeat hsla(0, 0%, 93%, 0)
+                    url("../../assets/third.png");
+                justify-content: flex-start;
+            }
         }
-        .one {
-          text-align: center;
-          justify-content: flex-end;
-  
-        }
-        .two {
-          overflow: hidden;
-          min-height: 50vh ;
-          max-height: 1000% ;
-          // width: 50vw;
-          background: center/ contain no-repeat hsla(0, 0%, 93%, 0) url("../../assets/hero_image.jfif");
-          justify-content: flex-start;
-        }
-      }
     }
-  </style>
-  
+</style>

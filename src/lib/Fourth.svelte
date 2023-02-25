@@ -1,5 +1,11 @@
 <section class={$$props.class}>
-  <h3 class="one">we worry about maintenance so you don't have to</h3>
+  <div class="one column">
+    <div> <h5>Cómo es una transformación digital a través de tecnología Cloud Native:</h5>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
   <div class="two" />
 </section>
 
