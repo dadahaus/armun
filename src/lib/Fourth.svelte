@@ -2,23 +2,28 @@
   
   <div class="one column">
       <div>
-          <p>Cultura y Tecnologias</p>
-          <h5>
-              Cómo es una transformación digital a través de tecnología Cloud
-              Native:
-          </h5>
+          <p>Beneficios al implementar</p>
+          <h4>
+            DevOps & SecOps
+          </h4>
       </div>
       <div>
-          <p><b> Voice €40 million to €4 billion</b></p>
-          <p>earnings from your own e-commerce platform</p>
+          <h5><b> + Productividad y Eficiencia</b></h5>
+          <p>Las empresas que han adoptado DevOps tienen un tiempo de entrega 208 veces más rápido y una tasa de fallas de software 7 veces menor en comparación con las empresas que no han adoptado estas metodologías</p>
       </div>
       <div>
-          <p><b> 15 minutes is </b></p>
-          <p>how soon a bug fix can be in production</p>
+          <h5><b>+ Confiabilidad y Seguridad </b></h5>
+          <p>La implementación de SecOps puede reducir significativamente el tiempo de detección y respuesta a las amenazas de seguridad, lo que puede minimizar el impacto de los ataques y mejorar la confianza de los clientes
+
+          </p>
       </div>
       <div>
-          <p><b>Go from 4 to 20</b></p>
-          <p>deployments a day (in six months)</p>
+          <h5><b>+ Display surface</b></h5>
+          <p>Lorem ipsum dolor sit amet, con
+
+            sectetur adipiscing elit. Mauris
+            
+            </p>
       </div>
   </div>
   <div class="two" />
