@@ -17,7 +17,7 @@
       <p>CP:X2434</p>
       <p>CUIT: 30-71593728-6</p>
     </div>
-    <div class="logo"></div>
+   <a class="logo" href="http://"></a>
     <div class="ita column">
       <p><b>Italia</b> </p>
       <p>Savigliano (CN)</p>
@@ -26,7 +26,10 @@
     </div>
 
   </div>
-  <div class="three row"><h5>San Martin 315 - Piso 1 - Oficina 2 - Arroyito - Cordoba - Argentina - Tel. +54 (03576) 454950 - Email info@armun.net - Politica de privacidad Politica de cookies </h5></div>
+  <div class="three row">
+    <h5>San Martin 315 - Piso 1 - Oficina 2 - Arroyito - Cordoba - Argentina - Tel. +54 (03576) 454950 - Email info@armun.net - Politica de privacidad Politica de cookies </h5>
+    <a class="mail" href="mailto:"></a>
+  </div>
 </footer>
 
 <style lang="scss">
@@ -61,6 +64,7 @@
         flex-basis: 70%;
         width: 100%;
         justify-content: space-evenly;
+        gap: 1rem;
 
         & > * {
           width: 3rem;
@@ -94,9 +98,14 @@
       }
     }
     .two {
+      width: 100%;
+      justify-content: space-around;
+      gap: 1rem;
+
       .logo{
-        width: 6rem;
-        height: 6rem;
+        flex-basis: 30%;
+        width: 8rem;
+        height: 8rem;
         background: center/ contain no-repeat
               url("../../assets/logo_blanco.png");
       }
@@ -106,10 +115,10 @@
 
       .mail {
         background: center/ contain no-repeat
-              url("../../assets/mail.png");
-        width: 2rem;
-        height: 2rem;
-        transform: translateY(30%);
+              url("../../assets/mail-1.svg");
+        width: 5rem;
+        height: 5rem;
+        // transform: translateY(30%);
       }
     }
   }

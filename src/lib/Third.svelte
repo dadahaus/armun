@@ -40,6 +40,7 @@
             .one {
                 text-align: left;
                 // justify-content: flex-end;
+
                 gap: 2rem;
                 .hover{
                     transition: 0.5s;
@@ -53,6 +54,8 @@
                 display: flex;
                 flex-flow: column;
                 gap: 0.5rem;
+                // width: 100%;
+
 
             }
 
