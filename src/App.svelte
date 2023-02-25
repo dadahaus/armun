@@ -14,7 +14,7 @@
 <Hero class="section section__1 row" />
 <Second class="section section__2 column" />
 <Third class="section section__3 row" />
-<Fourth class="section section__4 column" />
+<Fourth class="section section__4 row" />
 <Fifth class="section section__5 row" />
 
 <Footer class="section section__3" />

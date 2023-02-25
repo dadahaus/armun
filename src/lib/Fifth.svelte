@@ -1,34 +1,34 @@
 <section class={$$props.class}>
-  <div class="one"></div>
-  <div class="two row">
-    <h5>some other strategy</h5>
-    <a href="http://"><div></div></a>
-    <a href="http://"><div></div></a>
-
-  </div>
+  <h3 class="one">we worry about maintenance so you don't have to</h3>
+  <div class="two" />
 </section>
 
 <style lang="scss">
   .section {
     &__5 {
-      height: 100vh;
-      padding: 0;
+      height: auto;
+      // transform: translateY(2.5rem);
+      margin-top: 5%;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      flex-wrap: wrap;
+      & > * {
+        flex-basis: 45%;
+        display: flex;
+      }
       .one {
-        flex-basis: 10%;
-        height: 100%;
-        width: 100%;
-        background: center/ cover no-repeat #eee url("../../assets/image.jpg");
+        text-align: center;
+        justify-content: flex-end;
+
       }
       .two {
-        justify-content: space-evenly;
-        align-items: center;
-        flex-basis: 90%;
-        &>*:nth-child(n+2){
-        background: center/ cover no-repeat #eee url("../../assets/2.png");
-        width: 15%;
-        height: 15%;
-        border-radius: 5rem;
-        }
+        overflow: hidden;
+        min-height: 50vh ;
+        max-height: 1000% ;
+        // width: 50vw;
+        background: center/ contain no-repeat hsla(0, 0%, 93%, 0) url("../../assets/hero_image.jfif");
+        justify-content: flex-start;
       }
     }
   }
