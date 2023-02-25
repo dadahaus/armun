@@ -3,10 +3,10 @@
     <div class="one column">
         <div>
             <p>Cultura y Tecnologias</p>
-            <h5>
+            <h4>
                 Cómo es una transformación digital a través de tecnología Cloud
                 Native:
-            </h5>
+            </h4>
         </div>
         <div>
             <p><b> Voice €40 million to €4 billion</b></p>
