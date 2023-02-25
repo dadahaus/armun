@@ -3,7 +3,7 @@
   <div class="one column">
       <div>
           <p>Beneficios al implementar</p>
-          <h4>
+          <h4 class="orange">
             DevOps & SecOps
           </h4>
       </div>
@@ -51,6 +51,9 @@
               display: flex;
               flex-flow: column;
               gap: 0.5rem;
+              .orange{
+                color: hsla(43, 73, 69, 1)
+              }
           }
 
           }
