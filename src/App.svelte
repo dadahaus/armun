@@ -17,7 +17,7 @@
 <Fourth class="section section__4 row" />
 <Fifth class="section section__5 row" />
 
-<Footer class="section section__3" />
+<Footer class="section section__3 " />
 
 <style lang="scss">
 </style>
