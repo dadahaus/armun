@@ -4,16 +4,16 @@ const app = new App({
   target: document.getElementById('app')
 })
 
-document.body.addEventListener("mousemove", event => {
-      const mouseX = event.clientX;
-      const mouseY = event.clientY;
+// document.body.addEventListener("mousemove", event => {
+//       const mouseX = event.clientX;
+//       const mouseY = event.clientY;
 
-  gsap.to(".shape", {
-  x: mouseX,
-  y: mouseY,
-  stagger: -0.1
-  })
-  })
+//   gsap.to(".shape", {
+//   x: mouseX,
+//   y: mouseY,
+//   stagger: -0.1
+//   })
+//   })
 
 // gsap.registerPlugin(ScrollTrigger);
 
